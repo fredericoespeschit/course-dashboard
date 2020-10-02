@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "khula";
 }
-
+body {
+    display: flex;
+    background: #DFE1EB;
+}
 header {
     width: 100px;
     height: 100vh;
@@ -15,7 +19,7 @@ header {
 .logo {
     width: 100px;
     height: 100px;
-    background: #6F52ED;
+    background: #6f52ed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +45,7 @@ header {
     list-style: none;
 }
 
-#nav-group li{
+#nav-group li {
     margin-bottom: 20px;
 }
 
@@ -55,7 +59,6 @@ header {
     border-radius: 25%;
 }
 
-
 #nav-settings {
     width: 100px;
     border-top: 1px solid #494e67;
@@ -63,4 +66,99 @@ header {
 
 #nav-settings li {
     padding: 40px;
+}
+
+main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+}
+
+.container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search span {
+    color: #a6acbe;
+    margin-left: 8px;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-function {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 12px;
+
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nome {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.function {
+    font-size: 12px;
+    color: #a6acbe;
+}
+.icon {
+    display: flex;
+
+    width: 200px;
+}
+
+.icons  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons ul,
+.icons li {
+    list-style: none;
+}
+.avatar {
+    padding: 8px;
+}
+
+#more {
+   padding-right: 15px;
+}
+#div {
+    height: 50px;
+    border: 1px solid #eff4f7;
+    margin-right: 10px;
+}
+
+#notifications{
+    margin-right: 10px;
 }
