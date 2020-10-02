@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    width: 100px;
+    height: 100vh;
+    background: #373b53;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: #6F52ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-group {
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+#nav-group li,
+#nav-group ul {
+    list-style: none;
+}
+
+#nav-group li{
+    margin-bottom: 20px;
+}
+
+#select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+    border-radius: 25%;
+}
+
+
+#nav-settings {
+    width: 100px;
+    border-top: 1px solid #494e67;
+}
+
+#nav-settings li {
+    padding: 40px;
+}
