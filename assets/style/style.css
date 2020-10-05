@@ -267,7 +267,8 @@ main {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .elements {
@@ -314,4 +315,24 @@ main {
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.01em;
+}
+
+.grande {
+    display: flex;
+	align-items: center;
+	width: 840px;
+	height: 375px;
+	background: #FFF;
+	border-radius: 10px;
+	padding: 32px;
+}
+
+.alto {
+    display: flex;
+	align-items: center;
+	width: 395px;
+	height: 555px;
+	background: #FFF;
+	border-radius: 10px;
+	padding: 32px;
 }
