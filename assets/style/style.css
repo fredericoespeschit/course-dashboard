@@ -13,8 +13,11 @@ body {
 #body {
 	flex-direction: column;
 	width: 100%;
-	display: flex;
+	
+background-color: red;
+	
 }
+
 
 header {
 	width: 100px;
@@ -179,8 +182,10 @@ main {
 
 #dash {
 	width: 100%;
+	
 	display: flex;
 	justify-content: center;
+
 }
 
 .dashboard {
@@ -190,6 +195,7 @@ main {
 	justify-content: space-between;
 	margin-top: 100px;
 }
+
 
 .title-dash {
 	font-size: 30px;
@@ -263,21 +269,29 @@ main {
 	margin-right: 10px;
 }
 
-#elements {
+
+
+
+#elementos {
 	width: 100%;
 	display: flex;
-	align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+	
+
 }
 
+
 .elements {
-	width: 100%;
+
+
 	display: flex;
 	justify-content: space-between;
+	margin-top: 100px;
+	
 }
 
 .element {
+
+
 	display: flex;
 	align-items: center;
 	width: 395px;
@@ -286,6 +300,7 @@ main {
 	border-radius: 10px;
 	padding: 32px;
 }
+
 
 .element-img {
 	display: flex;
@@ -302,7 +317,45 @@ main {
 	letter-spacing: 0.01em;
 	line-height: 40px;
 	font-weight: 700;
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+#elements {
+	width: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.elements {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
 
 #porc {
 	font-size: 26px;
@@ -336,3 +389,5 @@ main {
 	border-radius: 10px;
 	padding: 32px;
 }
+
+*/
